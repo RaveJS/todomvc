@@ -1,0 +1,55 @@
+{
+  "name": "rave",
+  "description": "Zero-configuration application bootstrap and development.",
+  "main": "rave",
+  "keywords": [
+    "module",
+    "package",
+    "bower",
+    "npm",
+    "amd",
+    "node",
+    "commonjs",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/RaveJS/rave.git"
+  },
+  "authors": [
+    "John Hann (http://unscriptable.com)",
+    "Brian Cavalier (http://hovercraftstudios.com)"
+  ],
+  "contributors": [
+    {
+      "name": "John Hann",
+      "web": "http://unscriptable.com"
+    },
+    {
+      "name": "Brian Cavalier",
+      "web": "http://hovercraftstudios.com"
+    }
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "build",
+    "test",
+    "tests",
+    "docs"
+  ],
+  "homepage": "https://github.com/RaveJS/rave",
+  "_release": "ad92fa4b6f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ad92fa4b6f315b6c7deec5745ad0effb2cbea19d"
+  },
+  "_source": "git://github.com/RaveJS/rave.git",
+  "_target": "master",
+  "_originalSource": "rave",
+  "_direct": true
+}
