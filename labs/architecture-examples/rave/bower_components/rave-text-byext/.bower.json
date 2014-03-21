@@ -1,0 +1,45 @@
+{
+  "name": "rave-text-byext",
+  "version": "0.1.3",
+  "description": "Adds text loading to rave.js based on file extensions.",
+  "rave": "rave",
+  "main": "rave",
+  "moduleType": "node",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:unscriptable/rave-byext.git"
+  },
+  "keywords": [
+    "rave",
+    "rave-extension",
+    "es6",
+    "module",
+    "loader",
+    "amd",
+    "node",
+    "commonjs"
+  ],
+  "author": "John Hann <john@unscriptable.com>",
+  "contributors": [
+    {
+      "name": "John Hann",
+      "web": "http://unscriptable.com"
+    },
+    {
+      "name": "Brian Cavalier",
+      "web": "http://hovercraftstudios.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/unscriptable/rave-text-byext",
+  "_release": "0.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.3",
+    "commit": "675beccafb1d87442e0c235465db094d2ad58a95"
+  },
+  "_source": "git://github.com/unscriptable/rave-text-byext.git",
+  "_target": "~0.1.3",
+  "_originalSource": "rave-text-byext",
+  "_direct": true
+}
