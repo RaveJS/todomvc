@@ -1,10 +1,11 @@
 {
   "name": "rave-text-byext",
-  "version": "0.1.3",
   "description": "Adds text loading to rave.js based on file extensions.",
   "rave": "rave",
   "main": "rave",
-  "moduleType": "node",
+  "moduleType": [
+    "node"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:unscriptable/rave-byext.git"
@@ -32,14 +33,14 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/unscriptable/rave-text-byext",
-  "_release": "0.1.3",
+  "_release": "eedbaad0bd",
   "_resolution": {
-    "type": "version",
-    "tag": "0.1.3",
-    "commit": "675beccafb1d87442e0c235465db094d2ad58a95"
+    "type": "branch",
+    "branch": "master",
+    "commit": "eedbaad0bda4ff718d11152a26b71196a615cf65"
   },
   "_source": "git://github.com/unscriptable/rave-text-byext.git",
-  "_target": "~0.1.3",
+  "_target": "master",
   "_originalSource": "rave-text-byext",
   "_direct": true
 }

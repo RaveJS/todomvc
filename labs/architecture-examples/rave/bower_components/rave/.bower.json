@@ -2,6 +2,9 @@
   "name": "rave",
   "description": "Zero-configuration application bootstrap and development.",
   "main": "rave",
+  "moduleType": [
+    "node"
+  ],
   "keywords": [
     "module",
     "package",
@@ -42,11 +45,11 @@
     "docs"
   ],
   "homepage": "https://github.com/RaveJS/rave",
-  "_release": "ad92fa4b6f",
+  "_release": "cccb075af1",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "ad92fa4b6f315b6c7deec5745ad0effb2cbea19d"
+    "commit": "cccb075af1957888744190c67ad89bfb121c4a7c"
   },
   "_source": "git://github.com/RaveJS/rave.git",
   "_target": "master",

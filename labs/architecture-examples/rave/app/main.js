@@ -12,8 +12,8 @@ define(function(require) {
 		// Render and insert the create view
 		createView: {
 			render: {
-				template: { module: 'app/create/template.html' },
-				replace: { module: 'app/create/strings' }
+				template: { module: 'todomvc-RaveJS/app/create/template.html' },
+				replace: { module: 'todomvc-RaveJS/app/create/strings' }
 			},
 			insert: { first: 'root' }
 		},
@@ -28,8 +28,8 @@ define(function(require) {
 		// data and mapping data fields to the DOM
 		listView: {
 			render: {
-				template: { module: 'app/list/template.html' },
-				replace: { module: 'app/list/strings' }//,
+				template: { module: 'todomvc-RaveJS/app/list/template.html' },
+				replace: { module: 'todomvc-RaveJS/app/list/strings' }//,
 //			css: { module: 'css!app/list/structure.css' }
 			},
 			insert: { after: 'createView' },
@@ -40,7 +40,7 @@ define(function(require) {
 					text: 'label, .edit',
 					complete: [
 						'.toggle',
-						{ attr: 'classList', handler: { module: 'app/list/setCompletedClass' } }
+						{ attr: 'classList', handler: { module: 'todomvc-RaveJS/app/list/setCompletedClass' } }
 					]
 				}
 			}
@@ -50,8 +50,8 @@ define(function(require) {
 		// filters, and clear completed button.
 		controlsView: {
 			render: {
-				template: { module: 'app/controls/template.html' },
-				replace: { module: 'app/controls/strings' }//,
+				template: { module: 'todomvc-RaveJS/app/controls/template.html' },
+				replace: { module: 'todomvc-RaveJS/app/controls/strings' }//,
 //			css: { module: 'css!app/controls/structure.css' }
 			},
 			insert: { after: 'listView' }
@@ -61,8 +61,8 @@ define(function(require) {
 		// is still fully internationalized.
 		footerView: {
 			render: {
-				template: { module: 'app/footer/template.html' },
-				replace: { module: 'app/footer/strings' }
+				template: { module: 'todomvc-RaveJS/app/footer/template.html' },
+				replace: { module: 'todomvc-RaveJS/app/footer/strings' }
 			},
 			insert: { after: 'root' }
 		},
@@ -86,7 +86,7 @@ define(function(require) {
 				module: 'cola/Collection',
 				args: {
 					strategyOptions: {
-						validator: { module: 'app/create/validateTodo' }
+						validator: { module: 'todomvc-RaveJS/app/create/validateTodo' }
 					}
 				}
 			},
@@ -102,7 +102,7 @@ define(function(require) {
 		// view controllers. Since this is a relatively simple application,
 		// a single controller fits well.
 		todoController: {
-			create: 'app/controller',
+			create: 'todomvc-RaveJS/app/controller',
 			properties: {
 				todos: { $ref: 'todos' },
 
@@ -143,8 +143,8 @@ define(function(require) {
 		},
 
 		form: { module: 'cola/dom/form' },
-		cleanTodo: { module: 'app/create/cleanTodo' },
-		generateMetadata: { module: 'app/create/generateMetadata' },
+		cleanTodo: { module: 'todomvc-RaveJS/app/create/cleanTodo' },
+		generateMetadata: { module: 'todomvc-RaveJS/app/create/generateMetadata' },
 
 		toggleEditingState: {
 			create: {
@@ -176,14 +176,14 @@ define(function(require) {
 			}
 		},
 
-		plugins: [
-//			'wire/debug',
+		$plugins: [
+			'wire/debug',
 			'wire/dom',
-//			'wire/dom/render',
-//			'wire/on',
-//			'wire/aop',
-//			'wire/connect',
-//			'cola'
+			'wire/dom/render',
+			'wire/on',
+			'wire/aop',
+			'wire/connect',
+			'cola'
 		]
 	}).done();
 

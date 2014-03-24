@@ -4,7 +4,7 @@
 	"description": "Adds text loading to rave.js based on file extensions.",
 	"rave": "rave",
 	"main": "rave",
-	"moduleType": "node",
+	"moduleType": ["node"],
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:unscriptable/rave-byext.git"
