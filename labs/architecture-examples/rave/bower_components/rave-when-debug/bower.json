@@ -1,0 +1,26 @@
+{
+  "name": "rave-when-debug",
+  "version": "0.0.1",
+  "authors": [
+    "Brian Cavalier <brian@hovercraftstudios.com>"
+  ],
+  "description": "Enable when.js promise monitoring",
+  "main": "rave",
+  "rave": "rave",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "rave",
+    "when"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

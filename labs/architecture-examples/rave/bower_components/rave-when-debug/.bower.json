@@ -1,0 +1,35 @@
+{
+  "name": "rave-when-debug",
+  "authors": [
+    "Brian Cavalier <brian@hovercraftstudios.com>"
+  ],
+  "description": "Enable when.js promise monitoring",
+  "main": "rave",
+  "rave": "rave",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "rave",
+    "when"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/briancavalier/rave-when-debug",
+  "_release": "a0d50e3ca1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a0d50e3ca13cfe73d99b75761e2cd69aa4a222c0"
+  },
+  "_source": "git://github.com/briancavalier/rave-when-debug.git",
+  "_target": "master",
+  "_originalSource": "rave-when-debug"
+}
