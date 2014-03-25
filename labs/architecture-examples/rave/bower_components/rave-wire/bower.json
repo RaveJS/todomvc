@@ -1,10 +1,10 @@
 {
-  "name": "rave-when-debug",
-  "version": "0.0.2",
+  "name": "rave-wire",
+  "version": "0.0.1",
   "authors": [
     "Brian Cavalier <brian@hovercraftstudios.com>"
   ],
-  "description": "Enable when.js promise monitoring",
+  "description": "RaveJS extension for wire.js",
   "main": "rave",
   "rave": "rave",
   "moduleType": [
@@ -12,12 +12,13 @@
   ],
   "keywords": [
     "rave",
-    "when"
+    "cujo",
+    "wire",
+    "ioc"
   ],
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "package.json",
     "node_modules",
     "bower_components",
     "test",

@@ -12,6 +12,7 @@
     "wire": "~0.10.6",
     "meld": "~1.3.0",
     "rave-text-byext": "master",
-    "rave-when-debug": "~0"
+    "rave-when-debug": "~0",
+    "rave-wire": "~0"
   }
 }

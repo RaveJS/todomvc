@@ -1,5 +1,6 @@
 {
   "name": "rave-when-debug",
+  "version": "0.0.2",
   "authors": [
     "Brian Cavalier <brian@hovercraftstudios.com>"
   ],
@@ -23,13 +24,13 @@
     "tests"
   ],
   "homepage": "https://github.com/briancavalier/rave-when-debug",
-  "_release": "a0d50e3ca1",
+  "_release": "0.0.2",
   "_resolution": {
-    "type": "branch",
-    "branch": "master",
-    "commit": "a0d50e3ca13cfe73d99b75761e2cd69aa4a222c0"
+    "type": "version",
+    "tag": "0.0.2",
+    "commit": "f09dd4a286253038b2f97039a69f194eafdb7fed"
   },
   "_source": "git://github.com/briancavalier/rave-when-debug.git",
-  "_target": "master",
+  "_target": "~0",
   "_originalSource": "rave-when-debug"
 }

@@ -1,0 +1,36 @@
+{
+  "name": "rave-wire",
+  "authors": [
+    "Brian Cavalier <brian@hovercraftstudios.com>"
+  ],
+  "description": "RaveJS extension for wire.js",
+  "main": "rave",
+  "rave": "rave",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "rave",
+    "cujo",
+    "wire",
+    "ioc"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "49884af5f4",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "49884af5f4a2efd3b4ab39a8924cba748ac664fa"
+  },
+  "_source": "/Users/brian/Projects/RaveJS/rave-wire",
+  "_target": "*",
+  "_originalSource": "/Users/brian/Projects/RaveJS/rave-wire",
+  "_direct": true
+}
