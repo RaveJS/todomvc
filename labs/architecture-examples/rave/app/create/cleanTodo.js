@@ -1,11 +1,14 @@
 /*global define */
-define(function () {
+define(['when'], function (when) {
 	'use strict';
 
 	return function (todo) {
-		todo.text = todo.text && todo.text.trim() || '';
-		todo.complete = !!todo.complete;
+		return when(todo).then(function (todo) {
 
-		return todo;
+			todo.text = todo.text && todo.text.trim() || '';
+			todo.complete = !!todo.complete;
+
+			return todo;
+		});
 	};
 });

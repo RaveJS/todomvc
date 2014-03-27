@@ -1,18 +1,32 @@
 {
   "name": "todomvc-RaveJS",
-  "moduleType": "amd",
-  "main": "app/main",
-  "version": "0.0.0",
+  "version": "1.2.0",
+  "homepage": "https://github.com/RaveJS/todomvc",
+  "authors": [
+    "unscriptable <john@unscriptable.com>"
+  ],
+  "description": "A cool demo",
+  "main": "app/main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "todomvc-common": "~0.1.4",
-    "rave": "~0",
-    "cola": "~0.1.6",
-    "poly": "~0.6.0",
-    "when": "~2.8.0",
+    "todomvc-common": "~0.1.9",
+    "rave": "~0.0.8",
     "wire": "~0.10.6",
+    "cola": "../rave-demo/bower_components/cola",
     "meld": "~1.3.0",
-    "rave-text-byext": "master",
-    "rave-when-debug": "~0",
-    "rave-wire": "~0"
+    "when": "~3.0.1",
+    "rave-wire": "~0.0.1",
+    "rave-text-byext": "~0.1.3",
+    "rave-when-debug": "~0.0.2"
   }
 }
